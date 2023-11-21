@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learning-stackelberg-games"
+version = "1.0.0"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "pandas"
+]
+
+[tool.setuptools]
+packages = ["security_games"]

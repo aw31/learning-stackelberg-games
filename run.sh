@@ -1,0 +1,7 @@
+python scripts/test_clinch_setting_1.py
+python scripts/test_security_search_setting_1.py
+
+python scripts/test_clinch_setting_2.py
+python scripts/test_security_search_setting_2.py
+
+python scripts/generate_plots.py
